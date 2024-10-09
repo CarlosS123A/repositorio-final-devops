@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nodejs-frontend
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nodejs-frontend
+  template:
+    metadata:
+      labels:
+        app: nodejs-frontend
+    spec:
+      containers:
+      - name: nodejs-frontend
+        image: gcr.io/devops-reto-tismart/mi-aplicacion-frontend:1.0
+        ports:
+        - containerPort: 3000
