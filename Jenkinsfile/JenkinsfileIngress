@@ -1,0 +1,49 @@
+pipeline {
+    agent any
+
+    environment {
+        KUBECONFIG = credentials('kubeconfig')  
+        INGRESS_FILE = 'k8s/ingress.yaml'       
+    }
+
+    stages {
+        stage('Validate Ingress File') {
+            steps {
+                echo 'Validando que el archivo de Ingress existe...'
+                                sh '''
+                if [ ! -f "${INGRESS_FILE}" ]; then
+                    echo "ERROR: El archivo de Ingress no se encontró en la ruta especificada: ${INGRESS_FILE}"
+                    exit 1
+                fi
+                '''
+            }
+        }
+
+        stage('Deploy Ingress') {
+            steps {
+                script {
+                    try {
+                        echo 'Desplegando el Ingress en Kubernetes...'
+                        sh "kubectl apply -f ${INGRESS_FILE}"
+                        echo 'Ingress desplegado correctamente.'
+                    } catch (Exception e) {
+                        echo "ERROR: Falló la aplicación del Ingress - ${e.getMessage()}"
+                        error("Deteniendo el pipeline debido a un error en el despliegue del Ingress.")
+                    }
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            echo 'Pipeline finalizado.'
+        }
+        success {
+            echo 'Pipeline completado exitosamente.'
+        }
+        failure {
+            echo 'Pipeline falló. Verifica los logs para más detalles.'
+        }
+    }
+}
