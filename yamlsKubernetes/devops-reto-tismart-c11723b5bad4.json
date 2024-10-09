@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "devops-reto-tismart",
+  "private_key_id": "c11723b5bad4d753b6997af0014fe63a8023fed8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDG9X4X0Xknv9WR\n43cBOiwIHmrsa2fZuY6/NPRzaNOKBJM9J+F79xFmEDdc1okkLZA2TykBO8WeQOlt\n33d6z3Nm0np4H+JvYdJ5DUkpZGgRjQkSPkgzTaKRwy6+y8K9fApX5XQRJMwopwL5\n9tglC9hUKMPDs6AbNbc/hoq0pRoktd/yUh8V/PLfz2bMSdPqQH8oeG6ZC3OE6+J4\nYNM+OXKHQ8P8qx7fEP9MlRZDvhFIIPTTfRlab35QPOHHXWx7aVd/ewlbxChNSCYy\njLSHckLNM/AooGL9I+sBa9QFA5P9wQ5Mj3LDajGEUyLtV3j5hBnpGkm5ox1e1m/l\n+ZekW1ZjAgMBAAECggEADUeA+5zK/42WdwVKm4KP28uqV7TkTcWy/5OzDFzrxmN/\nYrtdszhBwtRd2mY+gw0NE6lKIFkmW7JGokNVcy7Gq6jSucY1bWyHCSm+coycEZSe\nc8d3N2b87P1GpAw8WqKDzwTZyVpX/tw4a6MMUo5G1kWRdpqizg4fK/zfFycjgCpx\nWdfXArlRUIPlvuhYpPqTAb8pZKLL+1PxdJ3OGiQQPjYe6NAO+Bh93d08EE6K7JDn\n1QFWJP7qYJdxhKvxOjn9rxNar+OXIsElLGRvopzcfBaahqbAZ54H+JmR67T2FGeA\nRUCsGONAWJVA15i/B1mJAnLxp28d653x3UJHwEFbiQKBgQDiEOMzzuwW8HhG0Qy1\nPtjtZxnFfi6ihe5rcJh+JGBtCF+TxLzoBXnp4qidP+p3ltrQRoOa+aITdUNRxmHw\nNZxWQUk1l+hXamk7J2dax26GUuojYNySM0S3swiLrDa/0qXcJpgecyssDObtvphq\nRD2V4FAMqJmCQJfZUTSWtrMdZQKBgQDhTb16122DfXMzn0FoGXExE6JjossVEKVH\nzZfs4gFVnKvGX8O258LozAFzyUcdfAC4ddLtu1NJ/kCj+j+aTDzK9oXQEFKnxRCr\nKUwjq4xx5Xo7/3zkR3nh9GQ8QEj5B4ku8Z/uWoO0TVHhuRmeFrXAL+8pakczRniC\n8J81JeqsJwKBgAzrDCCsxV72NNlPHtvIkJrYVmerszyETMCE+aHTsFLqtJN8HZNg\npLvRwPLjcSGOVEisjt6vPyy/ea5VmMkiNyHSrz1JxfQg14ySztwoI0+3szt8UH5m\nQZoBuA5LNAG4JtQyvGSZDjGBNz0EtC72YVKMM+bVR5hi2oqHkmq+W/PlAoGBAJWX\nwmlfxEz77JOn+AugaPGG8dlp66FO7g7gyTD1VqF7ZupOB2rYMyfS3Fv+loNTJD9V\nq/lA2apVcKHvtG9Ek1DHok1lqRvP0qNyxiUg8B1nmmNf3ZLMinamiC8hF9KRWFqc\n/+2Il84NUIKpHgNDXOYAbbF36VJ4Refa0Dq/tDMdAoGAah+gJ9o9ShQt7gXnH7be\nIXuGvzFdTSYVBhGuJSzvi9e5g1DQuVjAlfFIhivmjJOHIHXhagJ+ImYonRJsp8jV\nFQAvCaDUCmJGfz/NEA8sXUlVEKnx8Na1DenLH179y09k96rPZYRANepr9rUtoYqK\n2Jhukxt6AMN5njidPbguk3E=\n-----END PRIVATE KEY-----\n",
+  "client_email": "auditor-tismart@devops-reto-tismart.iam.gserviceaccount.com",
+  "client_id": "103240077713956620570",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/auditor-tismart%40devops-reto-tismart.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
